@@ -1,0 +1,72 @@
+.container{
+    /* background-image: url("../../assets/faq-background-pic.jpg"); */
+    background-color: rgb(10, 151, 151);
+    background-size: cover;
+    
+}
+
+.faq_division{
+    padding: 20vh 15vw;
+}
+
+.allFaqs{
+    background-color: rgb(51, 26, 75);
+}
+
+.title{
+    color: white;
+}
+
+.singleFaq{
+    color: white;
+}
+.dropbtn {
+    background-color: #d32358;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 60%;
+    font-size: 18px;;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebec7f;
+    border-color: black;
+    border: 2px solid black;
+    width: 1000px;
+    padding: 5px 5px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(45, 53, 50, 0.644);
+    z-index: 1;
+  }
+  .question{
+    font:20px solid bold;
+    font-weight: bold;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:rgb(51, 26, 75);
+  }

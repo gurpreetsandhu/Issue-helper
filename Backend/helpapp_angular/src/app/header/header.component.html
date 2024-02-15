@@ -1,0 +1,20 @@
+<div class="web-header">
+    <span class="logo">
+    <img src="assets/logo.jpg">
+    <span class="heading">
+    <!-- <h1>Dollar Bank</h1> -->
+    <nav class="topnav">
+            <button (click)="home()" class="home">Home</button>
+        <button class="aboutus">About us</button>
+        <!-- <button class="promotions">Promotions</button> -->
+        <button (click)="products()" class="services">Products</button>
+        <input type="text" placeholder="Search" #input (keyup.enter)="search(input.value)">
+        
+        <i *ngIf = 'display' class="fa fa-user fa-2x" aria-hidden="true"></i>
+        <button (click)="login()" class="login">Login</button>
+        <button class="logout" (click)="logout()">Logout</button>
+        
+    </nav>
+</span>
+</span>
+

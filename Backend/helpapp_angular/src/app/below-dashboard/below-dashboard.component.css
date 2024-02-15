@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.latest-statistics
+{   
+     display: flex;
+}
+.statistics{
+    color:brown;
+    padding: 25 10 10 10;
+    font-size: 20px;
+    display: inline-block;
+    margin: 90px 0 0 10px;
+
+    
+}
+
+.hero-image
+{
+    background-image: url("/assets/home.jpg");
+    height: 23vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 91.8%;
+    /* margin: 100px; */
+    position: relative;
+    padding: 85px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.hero-content
+{
+    /* text-align: left; */
+    position: absolute;
+    margin-top: 15px;;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    padding: 5px 15px;
+    height: 17vh;
+    background-color: rgb(27, 121, 145);
+    box-shadow: 0 18px 6px -6px rgb(196, 7, 95);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.hero-content>button{
+    background-color: rgb(51, 26, 75);
+    height: 55px;
+    width: 250px;
+    font: 2px solid bold;
+    font-size: 18px;
+    border: none ;
+    color: white;
+    margin-left: 150px;
+    border-radius: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-content button:hover
+{
+   border-color: rgb(66, 221, 208);
+   
+}
+.sub-hero{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 26, 75);
+    height: 22vh;
+    width: 101%;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.card button{
+    
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: 12px solid bold;
+    background-color: rgb(51, 26, 75);
+    width: 190px;
+}
+.card button:hover{
+    text-decoration: underline;
+    
+}
+.mobile{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.mobile button{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: 12px solid bold;
+    width: 190px;
+    background-color: rgb(51, 26, 75);
+}
+.mobile button:hover{
+    text-decoration: underline;
+ 
+}
+.student{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.student button{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: 12px solid bold;
+    background-color: rgb(51, 26, 75);
+    width: 190px;
+}
+.student button:hover{
+    text-decoration: underline;
+  
+}
+.student img{
+    padding-left: 25px;
+}
+.covid{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.covid button{
+    margin-top: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: 12px solid bold;
+    width: 190px;
+    background-color: rgb(51, 26, 75);
+}
+.covid button:hover{
+    text-decoration: underline;
+   
+}
+.covid img{
+    padding-left: 30px;
+}
+.faq{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.faq img{
+    padding-left: 35px;
+}
+.faq button{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: 12px solid bold;
+    width: 190px;
+    margin-right: 20px;
+    background-color: rgb(51, 26, 75);;
+}
+.faq button:hover{
+    text-decoration: underline;
+    
+}
+
+
+.donate
+{
+    background-image: url("/assets/covid.jpg");
+    height: 23vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 91.8%;
+    /* margin: 100px; */
+    position: relative;
+    padding: 85px; 
+    margin-top: 40px; 
+    margin-left: 0px;
+}
+.donate-content
+{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%,-50%);    
+    margin-top: 50px;
+    background-color: rgb(27, 121, 145);
+    box-shadow: 0 18px 6px -6px rgb(196, 7, 95);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 30%;
+    padding: 5px 15px;
+    align-content: space-around;
+}
+.donate-content>button{
+    background-color: rgb(51, 26, 75);
+    height: 55px;
+    width: 250px;
+    font: 2px solid bold;
+    font-size: 18px;
+    border: none ;
+    color: white;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.donate-content button:hover
+{
+   border-color: rgb(66, 221, 208);
+   
+}
+.chatting img{
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    bottom: 1%;
+    right: 3%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.articles{
+    display: flex;
+    margin: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.articles-content{
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+.articles-content > h1{
+    color: rgb(51, 26, 75);
+}
+.articles > img{
+    width: 32vw;
+    height: 37vh;
+}
+.articles-content > button{
+    background-color: rgb(27, 121, 145);
+    color: white;
+    font-weight: bold;
+    width: 35%;
+    height: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border: none;
+   
+}

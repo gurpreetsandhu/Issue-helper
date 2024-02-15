@@ -1,0 +1,22 @@
+<div class="searchbar">
+    <h2>Ask us any question</h2>
+    <input type="text" [(ngModel)] = 'query.q' placeholder="Enter any keyword and press Enter " input (keyup.enter)="search()">
+</div>
+
+<div class="resultOfQuery" *ngIf='helpResult'>
+    <hr>
+    <div class="result" *ngFor='let thisResult of helpResult'>
+        <mat-card class="allQueries">
+            <mat-card-title class="title"></mat-card-title>
+            <mat-card-content>
+                <p *ngIf='thisResult.q'>Question: {{thisResult.q}}</p>
+                <p *ngIf='thisResult.a'>Answer: {{thisResult.a}}</p>
+                <a class='link' *ngIf='thisResult.link' [href]='thisResult.link'>Link</a>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+<div class="error" *ngIf='errMessage !== null'>
+    <h2>{{errMessage}}</h2>
+</div>
+    

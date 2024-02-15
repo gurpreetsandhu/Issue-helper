@@ -1,0 +1,5 @@
+From openjdk:11-jre
+RUN mkdir usr/userservice
+WORKDIR usr/userservice
+ADD ./target/user-0.0.1-SNAPSHOT.jar user-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar", "user-0.0.1-SNAPSHOT.jar"]

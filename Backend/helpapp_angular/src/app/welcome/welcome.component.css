@@ -1,0 +1,45 @@
+.page{
+    padding-top: 250px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/background.jpg');
+    z-index: 1;
+   background-position: 50% 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 70px;
+   height: 55.2vh;
+   width: 100.3%;
+   
+}
+.box{
+    background-color: rgb(51, 26, 75);
+  
+    margin-top: initial;
+    /* margin-bottom: 320px; */
+    margin-left: 500px;
+    height: 45vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.box > p
+{
+    margin:10px 250px;
+    color: white;
+    font-size: 30px;  
+    border-radius: 5%  
+}
+.box button{
+    width: 20vw;
+    height: 5vh;
+    margin: 20px 220px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-style: 2px solid bold;
+    border-color: red;
+}
+.box button:hover{
+    /* background-color: rgb(88, 248, 227); */
+    border-color: rgb(66, 221, 208);
+}

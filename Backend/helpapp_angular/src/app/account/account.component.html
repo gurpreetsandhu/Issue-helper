@@ -1,0 +1,61 @@
+<section class="background">
+
+    <div *ngIf = 'account' class="container">
+        <section class="account-summary-container">
+        <div *ngIf = 'account.account_holder' class="entry">
+            <p class="key">Account Holder</p>
+            <p class="value">{{account.account_holder}}</p>
+        </div>
+        <div *ngIf = 'account.account_number' class="entry">
+            <p class="key">Account Number</p>
+            <p class="value">{{account.account_number}}</p>
+        </div>
+        <div *ngIf = 'account.balance' class="entry">
+            <p class="key">Account Balance</p>
+            <p class="value">{{account.balance}}</p>
+        </div>
+        <div *ngIf = 'account.ifsc_code' class="entry">
+            <p class="key">IFSC Code</p>
+            <p class="value">{{account.ifsc_code}}</p>
+        </div>
+        <div *ngIf = 'account.branch' class="entry">
+            <p class="key">Branch</p>
+            <p class="value">{{account.branch}}</p>
+        </div>
+        <div *ngIf = 'account.account_type' class="entry">
+            <p class="key">Account Type</p>
+            <p class="value">{{account.account_type}}</p>
+        </div>
+        <div *ngIf = 'account.loan_status' class="entry">
+            <p class="key">Loan Taken</p>
+            <p class="value">{{account.loan_status}}</p>
+        </div>
+    
+        <mat-expansion-panel class="mat-expansion-panel">
+            <mat-expansion-panel-header class="expansion-panel">
+                <mat-panel-title class="panelTitle">
+                    Recent Transactions
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="header">
+                <p class="date">Date</p>
+                <p class="time">Time</p>
+                <p class="amount">Amount</p>
+                <p class="type">Type</p>
+                <p class="tofrom">To/From</p>
+            </div>
+            <section *ngIf = 'account'>
+                <div *ngFor = 'let transaction of account.transacation_summary' class="contents">
+                    <div class="transaction">
+                        <p *ngIf = 'transaction.date' class="date_value">{{transaction.date}}</p>
+                        <p *ngIf = 'transaction.time' class="time_value">{{transaction.time}}</p>
+                        <p *ngIf = 'transaction.amount' class="amount_value">{{transaction.amount}}</p>
+                        <p *ngIf = 'transaction.type' class="type_value">{{transaction.type}}</p>
+                        <p *ngIf = 'transaction.to_from' class="tofrom_value">{{transaction.to_from}}</p>
+                    </div>
+                </div>
+            </section>
+        </mat-expansion-panel>
+    </section>
+    </div>
+    </section>

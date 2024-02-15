@@ -1,0 +1,56 @@
+{
+    "accounts":[
+        {
+            "id":"1",
+            "account_number":"000111222333",
+            "ifsc_code":"EFGH000019",
+            "branch":"Town Road",
+            "balance":"5000",
+            "account_type":"savings",
+            "account_holder":"John",
+            "loan_status":"YES",
+            "transacation_summary":[
+                {
+                    "date":"11-5-2020",
+                    "time":"6:31:34",
+                    "amount":"500",
+                    "type":"Credit",
+                    "to_from":"000111222555"
+                },
+                {
+                    "date":"19-6-2020",
+                    "time":"22:16:43",
+                    "amount":"800",
+                    "type":"Debit",
+                    "to_from":"000111222666"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "account_number":"000111222444",
+            "ifsc_code":"ABCD000011",
+            "branch":"Sector 6",
+            "balance":"3000",
+            "account_type":"Current",
+            "account_holder":"Charles",
+            "loan_status":"NO",
+            "transacation_summary":[
+                {
+                    "date":"1-2-2020",
+                    "time":"19:11:56",
+                    "amount":"200",
+                    "type":"Credit",
+                    "to_from":"000111222555"
+                },
+                {
+                    "date":"1-3-2020",
+                    "time":"10:56:47",
+                    "amount":"200",
+                    "type":"Debit",
+                    "to_from":"000111222666"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<section class="container">
+    <div class="faq_division">
+        <mat-card class="allFaqs">
+            <mat-card-title class="title">FAQs</mat-card-title>
+            <mat-card-content>
+                <hr>
+                <div class="dropdown" *ngFor='let faq of faqs'>
+                   
+                    <p class="question">Question: {{faq.q}}</p>
+               
+                    <button class="dropbtn">View Answer</button>
+                    
+                    <div class="dropdown-content">
+                        <p>{{faq.a}}</p>
+                    </div>
+                  </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</section>

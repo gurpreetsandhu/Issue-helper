@@ -1,0 +1,138 @@
+<div class="registerpage">
+    
+    <div class="box">
+
+        <div class='registeration-form'>
+            <h2>Register Here!</h2>
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input  required minlength='3' maxlength='30' pattern='[a-zA-Z ]*'
+                #firstname='ngModel' name='firstname' matInput [(ngModel)]='userdetails.firstName'
+                [class.error-border]= 'firstname.touched && firstname.invalid' >
+            </mat-form-field>
+            <div *ngIf="firstname.invalid && (firstname.dirty || firstname.touched)" class="error-text">
+        
+                <small *ngIf="firstname.errors.required">
+                    Name is required.
+                </small>
+                <small *ngIf="firstname.errors.minlength">
+                    Name must be at least 3 characters long.
+                </small>
+                <small *ngIf="firstname.errors.maxlength">
+                     Name can't be more than 30 characters
+                </small>
+                <small *ngIf="firstname.errors.pattern">
+                    Name can only have characters
+               </small>
+            </div>
+            <mat-form-field>
+                <mat-label>Address</mat-label>
+                <input required minlength="20" maxlength="80" matInput [(ngModel)]='userdetails.address'
+                #address="ngModel" name="address" [class.error-border]= 'address.touched && address.invalid'>
+            </mat-form-field>
+            <div *ngIf="address.invalid && (address.dirty || address.touched)" class="error-text">
+        
+                <small *ngIf="address.errors.required">
+                    Address is required.
+                </small>
+                <small *ngIf="address.errors.minlength">
+                    Address must be at least 20 characters long.
+                </small>
+                <small *ngIf="address.errors.maxlength">
+                    Address can't be more than 80 characters
+                </small>
+            </div>
+            
+            <mat-form-field>
+                <mat-label>Account No</mat-label>
+                <input input  required minlength='16' maxlength='16' pattern='[0-9]*' #account=ngModel name='account' 
+                matInput [(ngModel)]='userdetails.account'
+                [class.error-border]='account.touched && account.invalid' >
+        
+            </mat-form-field>
+            <div *ngIf="account.invalid && (account.dirty || account.touched)" class="error-text">
+        
+                <small *ngIf="account.errors.required">
+                    Account No is required.
+                </small>
+                <small *ngIf="account.errors.minlength">
+                    Account must be 16 digit number.
+                </small>
+                <small *ngIf="account.errors.maxlength">
+                    Account must be 16 digit number.
+                </small>
+                <small *ngIf="account.errors.pattern">
+                   Account Number can only have digits
+               </small>
+            </div>
+
+                <mat-form-field>
+                    <mat-label>Phone No</mat-label>
+                    <input input  required minlength='10' maxlength='10' pattern='[0-9]*' #contact=ngModel name='contact' 
+                    matInput [(ngModel)]='userdetails.contact'
+                    [class.error-border]='contact.touched && contact.invalid' >
+            
+                </mat-form-field>
+                <div *ngIf="contact.invalid && (contact.dirty || contact.touched)" class="error-text">
+            
+                    <small *ngIf="contact.errors.required">
+                        Contact No is required.
+                    </small>
+                    <small *ngIf="contact.errors.minlength">
+                        Contact No  must be 10 digit number.
+                    </small>
+                    <small *ngIf="contact.errors.maxlength">
+                        Contact No must be 10 digit number.
+                    </small>
+                    <small *ngIf="contact.errors.pattern">
+                        Contact No can only have digits
+                   </small>
+                </div>
+
+            <mat-form-field>
+
+                <mat-label>Password</mat-label>
+                <input required minlength="8" maxlength="13" 
+                #password=ngModel [class.error-border]='password.touched && password.invalid'
+                 matInput [(ngModel)]='userdetails.password' name=password>
+            </mat-form-field>
+            <div *ngIf="password.invalid && (password.dirty || password.touched)" class="error-text">
+        
+                <small *ngIf="password.errors.required">
+                    Password is required.
+                </small>
+                <small *ngIf="password.errors.minlength">
+                    Password must be at least 8 characters long.
+                </small>
+                <small *ngIf="password.errors.maxlength">
+                    Password can't be more than 13 characters
+                </small>
+               
+            </div>
+            <mat-form-field>
+                <mat-label>Customer Id</mat-label>
+                <input input  required minlength='8' maxlength='8' pattern='[a-zA-Z0-9]*' #customerId=ngModel name='customerId' 
+                matInput [(ngModel)]='userdetails.customerId'
+                [class.error-border]='customerId.touched && customerId.invalid' >
+        
+            </mat-form-field>
+            <div *ngIf="customerId.invalid && (customerId.dirty || customerId.touched)" class="error-text">
+        
+                <small *ngIf="customerId.errors.required">
+                    Customer Id is required.
+                </small>
+                <small *ngIf="customerId.errors.minlength">
+                    Customer Id must be 8 digit number.
+                </small>
+                <small *ngIf="customerId.errors.maxlength">
+                    Customer Id must be 8 digit number.
+                </small>
+                
+            </div>
+        
+            <button class="registerbutton" >Register</button>
+        </div>
+        
+
+    </div>
+</div>

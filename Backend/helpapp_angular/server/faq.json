@@ -1,0 +1,29 @@
+{
+  "faqs":[
+    {
+      "id":"1",
+      "q":"How do I check my account balance online?",
+      "a":"You can check you account balance by logging in and then visiting your profile by clicking on the profile icon. You can also search for account summary in the search box situated at the top of the website."
+    },
+    {
+      "id":"2",
+      "q":"I don't recognise a transaction, what can I do?",
+      "a":"We’re here to help. There can be a number of explanations for a transaction that you might not immediately recognise and we’ve added the most common ones here. Could it be a company that you know which might be trading uder a fraud name, a pre-authorized payment, or a free trial that has expired - Like Amazon Prime or Netflix ? Still don't recognise it ? Report Fraud through the HELP option visible as a blue round chat icon at the botton right corner"
+    },
+    {
+      "id":"3",
+      "q":"How do I report a lost, stolen or damaged debit card and order a replacement?",
+      "a":"You can now report your debit or credit card as lost or damaged and order a new one using our mobile app:Mobile app - 1) Log into the mobile app 2) Choose the account that you need a new card for 3) Select 'Manage my card' 4) Then choose 'Report lost or damaged', followed by whether your card has been 'Lost' or 'Damaged' 5) Complete the details and submit 6) You can also log on to your Online Banking."
+    },
+    {
+      "id":"4",
+      "q":"How do I cancel a direct debit?",
+      "a":"You can cancel a direct debit online up to 8.20pm (UK time) on the day the payment is due to be taken from your account. Before you cancel a direct debit you should usually let the payee know that you're about to do this. Your balance might not look as you would expect when cancelling a direct debit. Visit When can I cancel a direct debit? for some examples."
+    },
+    {
+      "id":"5",
+      "q":"How do I pay someone for the first time using Online Banking?",
+      "a":"To add a payee 1) Log in to (you may need your card reader to do this) 2) Select 'payments and transfers' from the left hand menu 3) Under the 'make a payment or transfer' heading select 'make a payment or transfer' 4) Select the account you want to make the payment from, and the payee you want to pay, from the drop down lists 5) Enter the amount and the date you want the money to leave your account. 6) Select 'next' and carefully check your payment details before clicking 'confirm' 7) Once you have clicked on 'confirm' you will be shown a summary of your newly arranged payment"
+    }
+  ]
+}

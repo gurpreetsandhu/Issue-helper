@@ -1,0 +1,116 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+# first change username and password of each database in application.yml file as root.
+version : '3'
+
+services:
+
+  mysqlDatabase:
+    image: mysql
+    ports:
+      - 3306:3306
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: hackathonUserDb
+
+  mongoDatabase:
+    image: mongo
+    ports:
+      - 27017:27017
+    network_mode: host
+    #environment:
+    #  MONGO_INITDB_ROOT_USERNAME: root
+    #  MONGO_INITDB_ROOT_PASSWORD: root
+
+
+  helpsapp:
+    image: newsapp
+    build: helpapp_angular/
+    depends_on:
+      - userService
+      - queryService
+      - productService
+      - faqService
+      - accountService
+    network_mode: host
+    ports:
+      - 8080:8080
+
+  userService:
+    image: user
+    build: user/
+    restart: always
+    depends_on:
+      - mysqlDatabase
+      - netflix-zuul-api-gateway-server
+    network_mode: host
+    ports:
+      - 9004:9004
+
+  queryService:
+    image: query
+    build: query/
+    restart: always
+    depends_on:
+      - mongoDatabase
+      - netflix-zuul-api-gateway-server
+    network_mode: host
+    ports:
+      - 9001:9001
+
+  productService:
+    image: product
+    build: product/
+    restart: always
+    depends_on:
+      - mongoDatabase
+      - netflix-zuul-api-gateway-server
+    network_mode: host
+    ports:
+      - 9002:9002
+
+  faqService:
+    image: faq
+    build: faq/
+    restart: always
+    depends_on:
+      - mongoDatabase
+      - netflix-zuul-api-gateway-server
+    network_mode: host
+    ports:
+      - 9003:9003
+
+  accountService:
+    image: account
+    build: account/
+    restart: always
+    depends_on:
+      - mongoDatabase
+      - netflix-zuul-api-gateway-server
+    network_mode: host
+    ports:
+      - 9000:9000
+
+
+  netflix-eureka-naming-server:
+    image : netflixeurekanamingserver
+    build: netflix-eureka-naming-server/
+    restart: always
+    depends_on:
+      - mongoDatabase
+      - mysqlDatabase
+    network_mode: host
+    ports:
+      - 8761:8761
+
+  netflix-zuul-api-gateway-server:
+    image: netflixzuulapigatewayserver
+    build: netflix-zuul-api-gateway-server/
+    restart: always
+    network_mode: host
+    depends_on:
+      - netflix-eureka-naming-server
+    ports:
+      - 8765:8765

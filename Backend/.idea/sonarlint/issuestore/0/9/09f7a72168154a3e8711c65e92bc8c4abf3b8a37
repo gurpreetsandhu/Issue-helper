@@ -1,0 +1,41 @@
+
+W
+java:S3457%"AFormat specifiers should be used instead of string concatenation.(Çãã×
+\
+java:S34570"AFormat specifiers should be used instead of string concatenation.(²µøûÿÿÿÿ
+E
+java:S3740/"/Provide the parametrized type for this generic.(á©ïÌ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+N
+java:S1128"3Remove this unused import 'io.jsonwebtoken.Claims'.(“œ¾ úÿÿÿÿ
+W
+java:S34576"AFormat specifiers should be used instead of string concatenation.(ğ¢Üà
+S
+java:S1128"8Remove this unused import 'com.netflix.zuul.ZuulFilter'.(–ò›Ğşÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'javax.servlet.ServletException'.(Š‰™Œ
+`
+java:S1128"ERemove this unused import 'com.netflix.zuul.exception.ZuulException'.(êÓöÏÿÿÿÿÿ
+\
+java:S34571"AFormat specifiers should be used instead of string concatenation.(ØÜà×üÿÿÿÿ
+P
+java:S1128":Remove this unused import 'javax.servlet.ServletResponse'.(ìÃ¢»
+W
+java:S3457*"AFormat specifiers should be used instead of string concatenation.(â÷î 
+Y
+java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë
+R
+java:S26291"7Use the built-in formatting to construct this argument.(ØÜà×üÿÿÿÿ
+\
+java:S34577"AFormat specifiers should be used instead of string concatenation.(ßéÁŒøÿÿÿÿ
+X
+java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…
+G
+java:S1128"1Remove this unused import 'io.jsonwebtoken.Jwts'.(íğœ±
+K
+java:S1128"6Remove this unused import 'javax.servlet.FilterChain'.(Èæó)
+O
+java:S1128"9Remove this unused import 'javax.servlet.ServletRequest'.(ë´áÙ
+h
+java:S1128"MRemove this unused import 'org.springframework.web.filter.GenericFilterBean'.(ù©İÌüÿÿÿÿ

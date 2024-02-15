@@ -1,0 +1,135 @@
+
+.web-header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 3; 
+   
+background-color: rgb(51, 26, 75);
+color:black;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width: 98%;
+    
+}
+.web-header h1{
+    margin: auto 0;
+    font-size: 45px;
+    display: inline;
+   
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+  
+}
+.logo img{
+    width:11vw;
+    height:6vh;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 3vh; */
+    margin-right: 2vw;
+    width: 98%;
+    /* background-color: white */
+}
+.topnav > i{
+    color: white;
+    margin-left: 60px;
+}
+.topnav > input{
+    width: 20%;
+    border: 2px solid  black;
+    height: 29px;
+    padding: 2px 16px 2px 16px;
+    font-size: 17px;;
+    margin-left: 500px;
+    
+    border-radius: 5%;
+    /* margin-top: 20px; */
+
+}
+.home{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin: 0 10px;
+    background-color: rgb(51, 26, 75);
+    border: none;  
+}
+
+.aboutus{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin: 0 10px;
+    background-color: rgb(51, 26, 75);
+    border: none;
+}
+.promotions{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin: 0 10px;
+    background-color: rgb(51, 26, 75);
+    border: none;
+}
+.services{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin: 0 10px;
+    background-color: rgb(51, 26, 75);
+    border: none;
+}
+.login{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin-right:10px;
+    /* margin-left: 850px; */
+    background-color: rgb(51, 26, 75);
+    border: none;
+}
+.logout{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0 1vw; 
+   font-style: 1px solid bold;
+    margin: 0 10px;
+    background-color: rgb(51, 26, 75);
+    border: none;
+}
+
+.topnav button:hover{
+    /* background-color: rgb(88, 248, 227); */
+    color: rgb(66, 221, 208);
+}

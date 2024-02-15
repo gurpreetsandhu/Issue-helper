@@ -1,0 +1,79 @@
+{
+  "products":[
+    {
+      "id":"1",
+      "name":"Bronze Savings Account",
+      "interest_rate":"6%",
+      "lower_limit":"1500",
+      "image_url":"../../assets/bronze_saving.png"
+    },
+    {
+      "id":"2",
+      "name":"Silver Savings Account",
+      "interest_rate":"6.5%",
+      "lower_limit":"2500",
+      "image_url":"../../assets/silver_saving.png"
+    },
+    {
+      "id":"3",
+      "name":"Gold Savings Account",
+      "interest_rate":"7%",
+      "lower_limit":"1000",
+      "image_url":"../../assets/gold_saving.png"
+    },
+    {
+      "id":"4",
+      "name":"Platinum Savings Account",
+      "interest_rate":"7.5%",
+      "lower_limit":"15000",
+      "image_url":"../../assets/platinum_saving.png"
+    },
+    {
+      "id":"5",
+      "name":"Current Account",
+      "interest_rate":"0%",
+      "lower_limit":"10000",
+      "image_url":"../../assets/current.png"
+    },
+    {
+      "id":"6",
+      "name":"Master Card",
+      "yearly_charges":"850",
+      "transaction_limit":"100000",
+      "shopping_limit":"300000",
+      "image_url":"../../assets/master_card.png"
+    },
+    {
+      "id":"7",
+      "name":"Premium Master Card",
+      "yearly_charges":"1200",
+      "transaction_limit":"500000",
+      "shopping_limit":"800000",
+      "image_url":"../../assets/premium_master_card.png"
+    },
+    {
+      "id":"8",
+      "name":"Premium Visa Card",
+      "yearly_charges":"5000",
+      "transaction_limit":"10000000",
+      "shopping_limit":"30000000",
+      "image_url":"../../assets/visa_card.png"
+    },
+    {
+      "id":"9",
+      "name":"Visa Card",
+      "yearly_charges":"1000",
+      "transaction_limit":"300000",
+      "shopping_limit":"500000",
+      "image_url":"../../assets/premium_visa.png"
+    },
+    {
+      "id":"10",
+      "name":"Travelling Card",
+      "yearly_charges":"2000",
+      "transaction_limit":"1000000",
+      "shopping_limit":"3000000",
+      "image_url":"../../assets/travelling_card.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+N
+java:S1481"8Remove this unused "httpServletResponse" local variable.(”Ğƒì
+]
+java:S1854"GRemove this useless assignment to local variable "httpServletResponse".(”Ğƒì
+\
+java:S1854"FRemove this useless assignment to local variable "httpServletRequest".(«ª¦û
+M
+java:S1481"7Remove this unused "httpServletRequest" local variable.(«ª¦û
+Q	java:S125"<This block of commented-out lines of code should be removed.(ã¬Ò‰
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ë¦²Ë

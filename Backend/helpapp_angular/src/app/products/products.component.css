@@ -1,0 +1,53 @@
+.container{
+    background-image: url("../../assets/products_back.jpg");
+    background-size: 100vw 100%;
+    background-position: center;
+    padding-top: 25vh;
+    padding-bottom: 40vh;
+}
+.all_products{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.products_division{
+    margin-left: 5.5vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.product_card{
+    width: 22vw;
+    height: 45vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 2vh;
+    background-color: rgb(51, 26, 75);
+    color: white;
+}
+
+.image{
+    width: 10vw;
+    height: 15vh;
+    background-color: white;
+    margin-left: 5vw;
+    border-radius: 5px;
+    padding: 2vh 1vw;
+}
+
+.detail{
+    margin-left: 3vw;
+}
+
+.button{
+    margin-top: 2vh;
+    margin-bottom:2vh;
+    margin-left: 1vw;
+    background-color: rgb(51, 26, 75);
+    color: white;
+    width: 23.5vw;
+}

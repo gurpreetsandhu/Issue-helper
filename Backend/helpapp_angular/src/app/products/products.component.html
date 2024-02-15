@@ -1,0 +1,21 @@
+<section class="container">
+    <div class="all_products">
+    <div class="products_division" *ngFor="let product of products">
+        <mat-card class="product_card">
+            <mat-card-title class="title">{{product.name}}</mat-card-title>
+            <mat-card-content>
+                <hr>
+                    <img *ngIf='product.image_url' [src]="product.image_url" alt="Image of Product" class="image">
+                    <div class="detail">
+                    <p *ngIf='product.interest_rate'>Interest Rate: {{product.interest_rate}}</p>
+                    <p *ngIf='product.lower_limit'>Lower Limit: {{product.lower_limit}}</p>
+                    <p *ngIf='product.yearly_charges'>Yearly Charges: {{product.yearly_charges}}</p>
+                    <p *ngIf='product.transaction_limit'>Daily Transaction Limit: {{product.transaction_limit}}</p>
+                    <p *ngIf='product.shopping_limit'>Daily Shopping Limit: {{product.shopping_limit}}</p>
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <!-- <button class="button" mat-raised-button>Buy</button> -->
+    </div>
+</div>
+</section>

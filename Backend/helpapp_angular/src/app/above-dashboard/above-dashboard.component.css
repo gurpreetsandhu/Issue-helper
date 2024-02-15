@@ -1,0 +1,81 @@
+
+.hero-image
+{
+    background-image: url("/assets/seniorCitizen.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* margin: 100px; */
+    position: relative;
+    padding: 25px;
+    margin-top: 77px;
+    margin-left: 0px;
+    
+}
+.hero-content
+{
+    /* text-align: left; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: black;
+    
+}
+.hero-content>button{
+    background-color: rgb(51, 26, 75);
+    height: 55px;
+    width: 250px;
+    font: 2px solid bold;
+    font-size: 18px;
+    border: 2px solid white ;
+    color: white;
+    margin-left: 150px;
+    /* border-color: ; */
+    border-radius: 5%;
+}
+.hero-content button:hover
+{
+   border-color: rgb(66, 221, 208);
+   
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black ;
+    padding: 5px;
+    height: 60vh;
+}
+.card img{
+    height: 40vh;
+    width: 20wh;
+}
+.card button{
+    margin-top: 10vh;
+    width: 20vw;
+    height: 5vh;
+   
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-style: 2px solid bold;
+    border-color: red;
+}
+.card button:hover{
+
+    background-color: rgba(0,0,0,0.5);
+
+}

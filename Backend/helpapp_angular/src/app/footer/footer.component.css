@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.footer-section-container {
+    background-color: rgb(51, 26, 75);
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    padding:0 25ch;
+    /* margin-top: 20ch; */
+    width: 80%;
+    
+}
+
+.footer-section-container > p {
+    padding: 4vh 0vh;
+}
+
+.footer-section-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-section-content .logo-links-section {
+    /* margin-top: 1ch; */
+    font-size: medium;
+    width: 30%;
+}
+
+.logo-links-section > ul {
+    list-style-type:none;
+    padding: 0;
+}
+.logo-links-section h3{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.footer-section-content .recent-news-section {
+    width: 40%;
+    padding-right: 40px;
+}
+
+.recent-news-section{
+    margin-top: 0.5ch;
+}
+.recent-news-section > p {
+    font-size: medium;
+    word-wrap: normal;
+    
+}
+
+.signup-section {
+    align-self: flex-start;
+    width: 33.33%;
+    padding-right: 15ch;
+    margin-top: 0.5ch;
+}
+
+.signup-section > p {
+    font-size: large;
+    margin-bottom: 3.5vh;
+}
+
+.signup-section .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+}
+.signup-section input{
+    padding: 2px 2px;
+}
+.buttons input{
+    padding: 0px;
+    width: 60%;
+    height: 150%;
+    padding: 15px;
+}
+
+.signup-section .buttons .button2 {
+    border-radius: 5%;
+    background-color: rgb(48, 122, 233);
+    width: 40%;
+    
+    /* text-align: center; */
+    padding-left: 50px;
+    
+    height: 50px;
+    
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-links > i {
+    padding-right: 3.5ch;
+}

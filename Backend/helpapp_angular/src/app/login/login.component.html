@@ -1,0 +1,22 @@
+<div class="loginpage">
+    
+    <div class="box">
+        <div class='login-form'>
+            <h3>Welcome Back!</h3>
+            <mat-form-field class='login-form-inputs'>
+                <mat-label>Username</mat-label>
+                <input  matInput [(ngModel)]='details.username' >
+            </mat-form-field>
+        
+            <mat-form-field class='login-form-inputs'>
+                <mat-label>Password</mat-label>
+                <input  class='password' matInput [(ngModel)]='details.password' >
+            </mat-form-field>
+        
+            <button (click)="login()">Login</button>
+            <button class="register" (click)="register()">First Time User? Register!</button>
+        </div>
+            
+
+    </div>
+</div>

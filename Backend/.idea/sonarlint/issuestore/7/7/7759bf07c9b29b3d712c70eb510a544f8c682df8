@@ -1,0 +1,44 @@
+
+E
+java:S3740%"/Provide the parametrized type for this generic.(°Í¨
+]
+java:S4684%"@Replace this persistent entity with a simple POJO or DTO object.(°Í¨8ëşíÿÌ.
+D
+java:S3740M"/Provide the parametrized type for this generic.(ß‘°
+Q
+java:S3740S"/Provide the parametrized type for this generic.(×µÅøÿÿÿÿ8±¤€Í.
+D
+java:S3740"/Provide the parametrized type for this generic.(“¹ì2
+J
+java:S3740I"/Provide the parametrized type for this generic.(ÔÌúßùÿÿÿÿ
+b
+java:S4684S"@Replace this persistent entity with a simple POJO or DTO object.(×µÅøÿÿÿÿ8õ¹ÚÍ.
+J
+java:S3740."/Provide the parametrized type for this generic.(üìƒÄÿÿÿÿÿ
+E
+java:S3740C"/Provide the parametrized type for this generic.(´¥óÁ
+J
+java:S37407"/Provide the parametrized type for this generic.(Ôºé¶ùÿÿÿÿ
+E
+java:S3740+"/Provide the parametrized type for this generic.(şÇ¡ô
+Q
+java:S3740Z"/Provide the parametrized type for this generic.(üìƒÄÿÿÿÿÿ8Š„ª€Í.
+[	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ö˜ˆã
+L
+java:S3740V"/Provide the parametrized type for this generic.(§øÌ”8ññ¦€Í.
+E
+java:S3740)"/Provide the parametrized type for this generic.(ô¡Ï¢
+Z
+java:S2147/"DCombine this catch with the one at line 45, which has the same body.(”ı¾
+J
+java:S3740<"/Provide the parametrized type for this generic.(¬åöïùÿÿÿÿ
+J
+java:S37400"/Provide the parametrized type for this generic.(üìƒÄÿÿÿÿÿ
+E
+java:S3740:"/Provide the parametrized type for this generic.(ÉÀ•â
+Q
+java:S3740X"/Provide the parametrized type for this generic.(€æå˜şÿÿÿÿ8¼Á©€Í.
+]
+java:S4684C"@Replace this persistent entity with a simple POJO or DTO object.(´¥óÁ8ëşíÿÌ.
+u
+java:S1488f"`Immediately return this expression instead of assigning it to the temporary variable "jwtToken".(‚×H
